@@ -15,7 +15,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "functions-framework --target=webscraperflix"
+    "start": "functions-framework --target=webscraperflix",
+    "update": "npx npm-check-updates -u"
   },
   "author": "Ben",
   "license": "ISC"
