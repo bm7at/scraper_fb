@@ -27,6 +27,7 @@ const currentDate = moment();
 
 exports.webscraperflix = async (req, res) => {
 
+//Query Parameter via url - days, by default 8
   const dayLoop = req.query.url || '8';
   const browser = await browserPromise;
   const context = await browser.createIncognitoBrowserContext();
