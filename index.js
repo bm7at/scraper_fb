@@ -51,7 +51,7 @@ exports.webscraperflix = async (req, res) => {
 try {
 
 const result = [];
-
+//start of loop over days
 for (let i = 1; i < dayLoop; i++) {
 
 
